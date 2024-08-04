@@ -1,0 +1,13 @@
+d17:42:07.189 [Test worker] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+i17:42:07.215 [Test worker] INFO reactor.Flux.ConcatMap.1 - onSubscribe(FluxConcatMap.ConcatMapImmediate)
+N17:42:07.218 [Test worker] INFO reactor.Flux.ConcatMap.1 - request(unbounded)
+D17:42:08.251 [parallel-1] INFO reactor.Flux.ConcatMap.1 - onNext(A)
+D17:42:09.252 [parallel-2] INFO reactor.Flux.ConcatMap.1 - onNext(L)
+D17:42:10.255 [parallel-3] INFO reactor.Flux.ConcatMap.1 - onNext(E)
+D17:42:11.256 [parallel-4] INFO reactor.Flux.ConcatMap.1 - onNext(X)
+D17:42:12.257 [parallel-5] INFO reactor.Flux.ConcatMap.1 - onNext(C)
+D17:42:13.258 [parallel-6] INFO reactor.Flux.ConcatMap.1 - onNext(H)
+D17:42:14.258 [parallel-7] INFO reactor.Flux.ConcatMap.1 - onNext(L)
+D17:42:15.259 [parallel-8] INFO reactor.Flux.ConcatMap.1 - onNext(O)
+D17:42:16.259 [parallel-1] INFO reactor.Flux.ConcatMap.1 - onNext(E)
+G17:42:16.260 [parallel-1] INFO reactor.Flux.ConcatMap.1 - onComplete()

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.learnreactiveprogramming.service.FluxAndMonoGeneratorServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-16T12:12:07" hostname="MSPLCHTHBK00277" time="9.159">
+  <properties/>
+  <testcase name="namesFlux_concatmap()" classname="com.learnreactiveprogramming.service.FluxAndMonoGeneratorServiceTest" time="9.159"/>
+  <system-out><![CDATA[17:42:07.189 [Test worker] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+17:42:07.215 [Test worker] INFO reactor.Flux.ConcatMap.1 - onSubscribe(FluxConcatMap.ConcatMapImmediate)
+17:42:07.218 [Test worker] INFO reactor.Flux.ConcatMap.1 - request(unbounded)
+17:42:08.251 [parallel-1] INFO reactor.Flux.ConcatMap.1 - onNext(A)
+17:42:09.252 [parallel-2] INFO reactor.Flux.ConcatMap.1 - onNext(L)
+17:42:10.255 [parallel-3] INFO reactor.Flux.ConcatMap.1 - onNext(E)
+17:42:11.256 [parallel-4] INFO reactor.Flux.ConcatMap.1 - onNext(X)
+17:42:12.257 [parallel-5] INFO reactor.Flux.ConcatMap.1 - onNext(C)
+17:42:13.258 [parallel-6] INFO reactor.Flux.ConcatMap.1 - onNext(H)
+17:42:14.258 [parallel-7] INFO reactor.Flux.ConcatMap.1 - onNext(L)
+17:42:15.259 [parallel-8] INFO reactor.Flux.ConcatMap.1 - onNext(O)
+17:42:16.259 [parallel-1] INFO reactor.Flux.ConcatMap.1 - onNext(E)
+17:42:16.260 [parallel-1] INFO reactor.Flux.ConcatMap.1 - onComplete()
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
